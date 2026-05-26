@@ -1,5 +1,5 @@
-# bd_inventario
-Relational Database Design
+## bd_inventario
+### Relational Database Design
 
 This database was created using the following tools:
 
