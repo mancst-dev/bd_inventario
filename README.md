@@ -22,7 +22,7 @@ Clone the repository and open the project in your favourite code editor.
 
 Set up the database using your preferred database engine.
 
-Replace the connection credentials located in the following project path in the bd_conexion.php file:
+Fill in the connection credentials located in the following project path in the bd_conexion.php file:
 
 ```
 bd_inventario\modules\auth\services\
