@@ -22,11 +22,6 @@
             return $conexion;
         }
     }
-        // Variables requeridas para la conexion
-// $host = 'localhost'; // url del equipo que contiene la BD, cuando es el mismo computador que contiene la Aplicación se llama localhost
-// $user = 'estudia4_05'; // Nombre del usuario de conexion en este caso es root (Usuario principal)
-// $password = 'Usuario.05'; // Contraseña asociada al usuario de conexion
-// $database = 'estudia4_05'; // Nombre de la base de datos
 $host = 'localhost';
 $port=3306;
 $user = ''; // Nombre del usuario de conexion en este caso es root (Usuario principal)
