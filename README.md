@@ -14,3 +14,16 @@ This database was created using the following tools:
 - JQuery.
 
 ### Credentials Login: Coming soon!
+
+### Local Development
+#### How to use the software:
+
+Clone the repository and open the project in your favourite code editor.
+
+Set up the database using your preferred database engine.
+
+Replace the connection credentials located in the following project path in the bd_conexion.php file:
+
+```
+bd_inventario\modules\auth\services\
+```
