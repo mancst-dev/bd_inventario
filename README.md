@@ -3,7 +3,7 @@
 
 This database was created using the following tools:
 
-- MySQL Workbench
+- MySQL Workbench.
 
 ## Features:
 
@@ -16,7 +16,7 @@ This database was created using the following tools:
 ### Credentials Login: Coming soon!
 
 ### Local Development
-#### How to use the software:
+### How to use the software:
 
 1. Set up the database using your preferred database engine.
 2. Clone the repository, Save the file in the XAMPP htdocs folder and open the project in your favourite code editor.
@@ -26,10 +26,10 @@ This database was created using the following tools:
 bd_inventario\modules\auth\services\
 ```
 4. Run XAMPP and start Apache.
-5. Copy and paste this URL into your preferred browser (Firefox)
+5. Copy and paste this URL into your preferred browser (Firefox).
 
 ```
 https://localhost/bd_inventario/index.php
 ```
 
-You'll finally be work on and test the project
+You'll finally be work on and test the project.
