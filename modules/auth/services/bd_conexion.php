@@ -6,8 +6,8 @@
 
             //variables para trabajar localmente
             $dbname = 'bd_inventario';
-            $username = 'root';
-            $passwd= 'ManCst13_2028';
+            $username = '';
+            $passwd= '';
 
             $server=$driver.':host='.$host.';dbname='.$dbname;
             try {
@@ -29,8 +29,8 @@
 // $database = 'estudia4_05'; // Nombre de la base de datos
 $host = 'localhost';
 $port=3306;
-$user = 'root'; // Nombre del usuario de conexion en este caso es root (Usuario principal)
-$password = 'ManCst13_2028'; // Contraseña asociada al usuario de conexion
+$user = ''; // Nombre del usuario de conexion en este caso es root (Usuario principal)
+$password = ''; // Contraseña asociada al usuario de conexion
 $database = 'bd_inventario'; // Nombre de la base de datos
 
 // Instrucción que permite conectar la aplicación con la base de datos
