@@ -1,0 +1,170 @@
+:root{
+    --primary-blue: #1e3ff4;
+    --text-dark: #000000;
+    --text-muted: #555555;
+    --bg-light: #f9fbfd;
+    --border-color: #e2e8f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.login-container{
+    display: flex;
+    width: 100vw;
+    flex: 1;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* lado izq */
+.login-form-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-light);
+    padding: 40px;
+}
+.form-wrapper {
+    width: 100%;
+    max-width: 400px;
+}
+.brand-title {
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.input-group {
+    margin-bottom: 24px;
+}
+.input-group label {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.input-group input:focus {
+    border-color: var(--primary-blue);
+}
+.btn-login {
+    width: 100%;
+    padding: 16px;
+    background-color: var(--primary-blue);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+.btn-login:hover {
+    background-color: #152ed1;
+}
+
+/* lado derecho */
+.login-testimonial-section{
+    flex: 1;
+    background-color: var(--primary-blue);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    position: relative;
+}
+.testimonial-wrapper {
+    max-width: 450px;
+    text-align: center;
+    z-index: 2; /* Por encima de la línea decorativa */
+}
+.testimonial-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.testimonial-text .highlight {
+    text-decoration: underline;
+    font-weight: 500;
+}
+.author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.author-name {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.9);
+}
+.author-name span {
+    font-weight: bold;
+    font-style: normal;
+}
+/* Línea decorativa curva usando SVG sutil */
+.decor-line {
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    height: auto;
+    pointer-events: none;
+    z-index: 1;
+}
+.site-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    /* padding: 4px 0; */
+    background-color: #f9fbfd;
+    color: #555555;
+    font-size: 0.85rem;
+    font-weight: 500;
+    /* border-top: 1px solid #e2e8f0; */
+    /* z-index: 10; */
+}
+
+/* responsive moviles */
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+    .login-testimonial-section {
+        display: none;
+    }
+    .login-form-section {
+        padding: 20px;
+    }
+}
