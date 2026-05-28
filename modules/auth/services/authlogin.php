@@ -14,28 +14,7 @@
 </head>
 
 <body>
-    <!-- <div class="container">
-        <div class="login">
-            <h1>Iniciar Sesión</h1>
-            <form action="login.php" method="post">
-                <p>
-                    <label>Usuario</label>
-                    <input type="text" id="txtUsuario" name="txtUsuario" value="" placeholder="Digite Usuario" onblur="validarUsuario()">
-                </p>
-                <p>
-                    <label>Nombre</label>
-                    <input type="text" id="txtNomUsuario" name="txtNomUsuario" value="" placeholder="Ingrese el nombre del usuario">
-                </p>
-                <p>
-                    <label>Contraseña</label>
-                    <input type="password" id="txtPass" name="txtPass" value="" placeholder="Ingrese la contraseña">
-                </p>
-                <p>
-                <input class="btns" type="button" id="btnenviar" onclick="validarClave()" value="Iniciar sesión">
-                </p>
-            </form>
-        </div>
-    </div> -->
+
     <div class="login-container">
         
         <div class="login-form-section">
@@ -79,10 +58,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    <!-- <footer class="site-footer">
-        <p>mancst.dev - Derechos Reservados &#169</p>
-    </footer> -->
-    <!-- <script src="../components/js/auth.js"></script> -->
+
 </body>
 
 </html>
