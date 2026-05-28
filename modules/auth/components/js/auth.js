@@ -6,7 +6,7 @@ function validarUsuario() {
 
     $.ajax({
         type: 'POST',
-        url: '../hooks/qry_authlogin.php', // Ruta corregida desde components/js/
+        url: '../hooks/qry_authlogin.php',
         data: { usuario: pUsuario, clave: pClave },
         dataType: 'json'
     }).done(function(res) {
@@ -26,12 +26,11 @@ function validarClave() {
 
     $.ajax({
         type: 'POST',
-        url: '../hooks/qry_authlogin.php', // Ruta corregida
+        url: '../hooks/qry_authlogin.php',
         data: { usuario: pUsuario, clave: pClave },
         dataType: 'json'
     }).done(function(res) {
         if (res.success) {
-            // Redirige a la raíz del proyecto
             window.location.href = '../../../index.php'; 
         } else {
             alert(res.message || "Credenciales incorrectas");
